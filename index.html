@@ -160,6 +160,64 @@ console.log(result);
 // > 1024
 
 
+<!-- current break -->
+
+for let (current = 20; ; current = current + 1) {
+  if (current % 7 == 0) {
+    console.log(current);
+    break;
+  }
+}
+
+> 21
+
+
+
+<!-- switch value -->
+
+It is not uncommon for code to look like this:
+
+if (x == "unworthy") worthy();
+else if (x == "worthy") unworthy();
+else if (x == "worries") noworries();
+else defaultRoot();
+
+
+
+switch (prompt("What is the weather like?")) {
+  case "rainy":
+  console.log("Remember to bring an umbrella");
+  break;
+  default:
+  console.log("Unknown weather type!");
+  break;
+}
+
+
+<!-- does capitalization matter or matters? -->
+
+dumblittledante
+dumb_little_dante
+DumbLittleDante
+dumbLittleDante
+
+
+
+<!-- lack of consistency my boi -->
+
+--comments--
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
